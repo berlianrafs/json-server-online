@@ -162,7 +162,66 @@
       "variant": []
     }
   ],
-  "transactions": [],
+  "transactions": [{
+    "orderId": "qE6r5001212202000001",
+    "date": "12-12-2020 22:37:59",
+    "deviceCode": "qE6r5",
+    "servant": {
+        "userId": "081220011",
+        "username": "Berlin"
+    },
+    "customer": {
+        "customerId": 1,
+        "name": "guest"
+    },
+    "productsOrder": [
+        {
+            "productId": 9,
+            "name": "sikat",
+            "detail": "Obe",
+            "price": 2500,
+            "image": "image_default.jpg",
+            "variant": [],
+            "qty": 1,
+            "subTotal": 2500
+        },
+        {
+            "productId": 6,
+            "name": "kebaya",
+            "detail": "Peny",
+            "price": 150000,
+            "image": "image_default.jpg",
+            "variant": [],
+            "qty": 1,
+            "subTotal": 150000
+        },
+        {
+            "productId": 5,
+            "name": "Daster",
+            "detail": "Kencana",
+            "price": 34500,
+            "image": "image_default.jpg",
+            "variant": [],
+            "qty": 1,
+            "subTotal": 34500
+        }
+    ],
+    "transactionId": "qE6r5011212202000001",
+    "paymentStatus": {
+        "paymentType": "cash",
+        "status": null
+    },
+    "transferStatus": "complete",
+    "totalDiscountType": "",
+    "totalDiscount": 0,
+    "totalPayment": 187000,
+    "totalQty": 3,
+    "paymentDate": "12-12-2020 22:38:3",
+    "statusPayment": null,
+    "cash": 187000,
+    "returnPayment": 0,
+    "id": 1
+}],
   "queue": [
     {
       "orderId": 1,
