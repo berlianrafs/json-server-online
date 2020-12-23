@@ -1,314 +1,393 @@
 {
-  "users": [
-    {
-      "userId": "081220011",
-      "username": "Berlin",
-      "password": "200820e3227815ed1756a6b531e7e0d2"
-    },
-    {
-      "userId": "081220012",
-      "username": "Rafsanjani",
-      "password": "bfd59291e825b5f2bbf1eb76569f8fe7"
-    }
-  ],
-  "date_products_modified": {
-    "date": "02/11/2020 01:01:01"
-  },
-  "products": [
-    {
-      "productId": 1,
-      "name": "Kaos",
-      "detail": "merah",
-      "price": 45000,
-      "image": "image_default.jpg",
-      "variant": [
-        {
-          "name": "Kaos",
-          "detailParent": "merah",
-          "productId": 11,
-          "productParentId": 1,
-          "detail": "XL",
-          "price": 45000
-        },
-        {
-          "name": "Kaos",
-          "detailParent": "merah",
-          "productId": 12,
-          "productParentId": 1,
-          "detail": "L",
-          "price": 45000
-        },
-        {
-          "name": "Kaos",
-          "detailParent": "merah",
-          "productId": 13,
-          "productParentId": 1,
-          "detail": "M",
-          "price": 45000
-        },
-        {
-          "name": "Kaos",
-          "detailParent": "merah",
-          "productId": 14,
-          "productParentId": 1,
-          "detail": "S",
-          "price": 45000
-        }
-      ]
-    },
-    {
-      "productId": 2,
-      "name": "Celana",
-      "detail": "levis",
-      "price": 500000,
-      "image": "image_default.jpg",
-      "variant": [
-        {
-          "name": "Celana",
-          "detailParent": "levis",
-          "productId": 15,
-          "productParentId": 2,
-          "detail": "XL",
-          "price": 500000
-        },
-        {
-          "name": "Celana",
-          "detailParent": "levis",
-          "productId": 16,
-          "productParentId": 2,
-          "detail": "L",
-          "price": 500000
-        },
-        {
-          "name": "Celana",
-          "detailParent": "levis",
-          "productId": 17,
-          "productParentId": 2,
-          "detail": "M",
-          "price": 500000
-        },
-        {
-          "name": "Celana",
-          "detailParent": "levis",
-          "productId": 18,
-          "productParentId": 2,
-          "detail": "S",
-          "price": 500000
-        }
-      ]
-    },
-    {
-      "productId": 3,
-      "name": "Peci",
-      "detail": "atlas",
-      "price": 75000,
-      "image": "image_default.jpg",
-      "variant": []
-    },
-    {
-      "productId": 4,
-      "name": "Sarung",
-      "detail": "BHS",
-      "price": 25000,
-      "image": "image_default.jpg",
-      "variant": []
-    },
-    {
-      "productId": 5,
-      "name": "Daster",
-      "detail": "Kencana",
-      "price": 34500,
-      "image": "image_default.jpg",
-      "variant": []
-    },
-    {
-      "productId": 6,
-      "name": "kebaya",
-      "detail": "Peny",
-      "price": 150000,
-      "image": "image_default.jpg",
-      "variant": []
-    },
-    {
-      "productId": 7,
-      "name": "bedak",
-      "detail": "Inez",
-      "price": 250000,
-      "image": "image_default.jpg",
-      "variant": []
-    },
-    {
-      "productId": 8,
-      "name": "sabun",
-      "detail": "Lux",
-      "price": 1250,
-      "image": "image_default.jpg",
-      "variant": []
-    },
-    {
-      "productId": 9,
-      "name": "sikat",
-      "detail": "Obe",
-      "price": 2500,
-      "image": "image_default.jpg",
-      "variant": []
-    },
-    {
-      "productId": 10,
-      "name": "parfum",
-      "detail": "Bellag",
-      "price": 10000,
-      "image": "image_default.jpg",
-      "variant": []
-    }
-  ],
-  "transactions": [{
-    "orderId": "qE6r5001212202000001",
-    "date": "12-12-2020 22:37:59",
-    "deviceCode": "qE6r5",
-    "servant": {
-        "userId": "081220011",
-        "username": "Berlin"
-    },
-    "customer": {
-        "customerId": 1,
-        "name": "guest"
-    },
-    "productsOrder": [
-        {
-            "productId": 9,
-            "name": "sikat",
-            "detail": "Obe",
-            "price": 2500,
-            "image": "image_default.jpg",
-            "variant": [],
-            "qty": 1,
-            "subTotal": 2500
-        },
-        {
-            "productId": 6,
-            "name": "kebaya",
-            "detail": "Peny",
-            "price": 150000,
-            "image": "image_default.jpg",
-            "variant": [],
-            "qty": 1,
-            "subTotal": 150000
-        },
-        {
-            "productId": 5,
-            "name": "Daster",
-            "detail": "Kencana",
-            "price": 34500,
-            "image": "image_default.jpg",
-            "variant": [],
-            "qty": 1,
-            "subTotal": 34500
-        }
-    ],
-    "transactionId": "qE6r5011212202000001",
-    "paymentStatus": {
-        "paymentType": "cash",
-        "status": null
-    },
-    "transferStatus": "complete",
-    "totalDiscountType": "",
-    "totalDiscount": 0,
-    "totalPayment": 187000,
-    "totalQty": 3,
-    "paymentDate": "12-12-2020 22:38:3",
-    "statusPayment": null,
-    "cash": 187000,
-    "returnPayment": 0,
-    "id": 1
-}],
-  "queue": [
-    {
-      "orderId": 1,
-      "date": "21/11/2020",
-      "deviceCode": "abc123",
-      "servantId": {
-        "employeeId": "emp000001",
-        "name": "Meca"
-      },
-      "customerId": {
-        "customerId": "cus000001",
-        "name": "Guest"
-      },
-      "productsOrder": [
-        {
-          "productId": 1,
-          "name": "Sabun",
-          "qty": 6,
-          "price": 2500,
-          "subTotal": 15000
-        }
-      ],
-      "totalDiscountType": "",
-      "totalDiscount": 0,
-      "totalPayment": 50000,
-      "paymentDate": "",
-      "statusPayment": null,
-      "cash": 0,
-      "return": 0
-    },
-    {
-      "orderId": 2,
-      "date": "21/11/2020",
-      "deviceCode": "abc123",
-      "servantId": {
-        "employeeId": "emp000002",
-        "name": "Adhia"
-      },
-      "customerId": {
-        "customerId": "cus000001",
-        "name": "Guest"
-      },
-      "productsOrder": [
-        {
-          "productId": 1,
-          "name": "Sabun",
-          "qty": 6,
-          "price": 2500,
-          "subTotal": 15000
-        }
-      ],
-      "totalDiscountType": "",
-      "totalDiscount": 0,
-      "totalPayment": 99000,
-      "paymentDate": "",
-      "statusPayment": null,
-      "cash": 0,
-      "return": 0
-    },
-    {
-      "orderId": 3,
-      "date": "21/11/2020",
-      "deviceCode": "abc123",
-      "servantId": {
-        "employeeId": "emp000003",
-        "name": "Naura"
-      },
-      "customerId": {
-        "customerId": "cus000002",
-        "name": "Eny Salon"
-      },
-      "productsOrder": [
-        {
-          "productId": 1,
-          "name": "Sabun",
-          "qty": 6,
-          "price": 2500,
-          "subTotal": 15000
-        }
-      ],
-      "totalDiscountType": "",
-      "totalDiscount": 0,
-      "totalPayment": 199000,
-      "paymentDate": "",
-      "statusPayment": null,
-      "cash": 0,
-      "return": 0
-    }
-  ]
+	"users": [{
+			"id": 1,
+			"userId": "081220011",
+			"username": "Berlin",
+			"password": "200820e3227815ed1756a6b531e7e0d2"
+		},{
+			"id": 2,
+			"userId": "081220012",
+			"username": "Rafsanjani",
+			"password": "bfd59291e825b5f2bbf1eb76569f8fe7"
+		},{
+			"id": 3,
+			"userId": 121230013,
+			"username": "Muhammad",
+			"password": "200820e3227815ed1756a6b531e7e0d2"
+		}
+	],
+	"products": {
+		"date": "02/11/2020 01:01:01",
+		"data": [{
+				"id": 1,
+				"productId": 1,
+				"sku": null,
+				"name": "Kaos",
+				"detail": "merah",
+				"category": "clothes",
+				"price": 0,
+				"priceMin": 45000,
+				"priceMax": 45000,
+				"hasChild": 1,
+				"dynamicPrice": 1,
+				"showPOS": 1,
+				"image": "image_default.jpg"
+			},{
+				"id": 2,
+				"productId": 2,
+				"sku": null,
+				"name": "Celana",
+				"detail": "levis",
+				"category": "clothes",
+				"price": 0,
+				"priceMin": 500000,
+				"priceMax": 500000,
+				"hasChild": 1,
+				"dynamicPrice": 1,
+				"showPOS": 1,
+				"image": "image_default.jpg"
+			},{
+				"id": 3,
+				"productId": 3,
+				"sku": "qwe1231",
+				"name": "Peci",
+				"detail": "atlas",
+				"category": "clothes",
+				"price": 75000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1,
+				"image": "image_default.jpg"
+			},{
+				"id": 4,
+				"productId": 4,
+				"sku": "qwe1232",
+				"name": "Sarung",
+				"detail": "BHS",
+				"category": "clothes",
+				"price": 25000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1,
+				"image": "image_default.jpg"
+			},{
+				"id": 5,
+				"productId": 5,
+				"sku": "qwe1233",
+				"name": "Daster",
+				"detail": "Kencana",
+				"category": "clothes",
+				"price": 34500,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1,
+				"image": "image_default.jpg"
+			},{
+				"id": 6,
+				"productId": 6,
+				"sku": "qwe1234",
+				"name": "kebaya",
+				"detail": "Peny",
+				"category": "clothes",
+				"price": 150000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1,
+				"image": "image_default.jpg"
+			},{
+				"id": 7,
+				"productId": 7,
+				"sku": "qwe1235",
+				"name": "bedak",
+				"detail": "Inez",
+				"category": "cosmetics",
+				"price": 250000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1,
+				"image": "image_default.jpg"
+			},{
+				"id": 8,
+				"productId": 8,
+				"sku": "qwe1236",
+				"name": "sabun",
+				"detail": "Lux",
+				"category": "toiletries",
+				"price": 1250,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1,
+				"image": "image_default.jpg"
+			},{
+				"id": 9,
+				"productId": 9,
+				"sku": "qwe1237",
+				"name": "sikat",
+				"detail": "Obe",
+				"category": "toiletries",
+				"price": 2500,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1,
+				"image": "image_default.jpg"
+			},{
+				"id": 10,
+				"productId": 10,
+				"sku": "qwe1238",
+				"name": "parfum",
+				"detail": "Bellag",
+				"category": "parfume",
+				"price": 10000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1,
+				"image": "image_default.jpg"
+			},{
+				"id": 11,
+				"productId": 11,
+				"productParentId": 1,
+				"sku": "qwe1239",
+				"detail": "XL",
+				"category": "clothes",
+				"price": 45000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1
+			},{
+				"id": 12,
+				"productId": 12,
+				"productParentId": 1,
+				"sku": "qwe12310",
+				"detail": "L",
+				"category": "clothes",
+				"price": 45000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1
+			},{
+				"id": 13,
+				"productId": 13,
+				"productParentId": 1,
+				"sku": "qwe12311",
+				"detail": "M",
+				"category": "clothes",
+				"price": 45000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1
+			},{
+				"id": 14,
+				"productId": 14,
+				"productParentId": 1,
+				"sku": "qwe12312",
+				"detail": "S",
+				"category": "clothes",
+				"price": 45000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1
+			},{
+				"id": 15,
+				"productId": 15,
+				"productParentId": 2,
+				"sku": "qwe12313",
+				"detail": "XL",
+				"category": "clothes",
+				"price": 500000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1
+			},{
+				"id": 16,
+				"productId": 16,
+				"productParentId": 2,
+				"sku": "qwe12314",
+				"detail": "L",
+				"category": "clothes",
+				"price": 500000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1
+			},{
+				"id": 17,
+				"productId": 17,
+				"productParentId": 2,
+				"sku": "qwe12315",
+				"detail": "M",
+				"category": "clothes",
+				"price": 500000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1
+			},{
+				"id": 18,
+				"productId": 18,
+				"productParentId": 2,
+				"sku": "qwe12316",
+				"detail": "S",
+				"category": "clothes",
+				"price": 500000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 1,
+				"showPOS": 1
+			},{
+				"id": 19,
+				"productId": 19,
+				"sku": "qwe12317",
+				"name": "Semir",
+				"detail": "Sepatu",
+				"category": "utilities",
+				"price": 15000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 0,
+				"showPOS": 0,
+				"image": "image_default.jpg"
+			},{
+				"id": 20,
+				"productId": 20,
+				"sku": null,
+				"name": "Handuk",
+				"category": "toiletries",
+				"price": 0,
+				"priceMin": 25000,
+				"priceMax": 30000,
+				"hasChild": 1,
+				"dynamicPrice": 0,
+				"showPOS": 0,
+				"image": "image_default.jpg"
+			},{
+				"id": 21,
+				"productId": 21,
+				"productParentId": 20,
+				"sku": "qwe12318",
+				"detail": "Besar",
+				"price": 30000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 0,
+				"showPOS": 0
+			},{
+				"id": 22,
+				"productId": 22,
+				"productParentId": 20,
+				"sku": "qwe12319",
+				"detail": "Kecil",
+				"price": 25000,
+				"priceMin": 0,
+				"priceMax": 0,
+				"hasChild": 0,
+				"dynamicPrice": 0,
+				"showPOS": 0
+			}
+		]
+	},
+	"queue": [{
+			"orderId": 1,
+			"date": "21/11/2020",
+			"deviceCode": "abc123",
+			"servantId": {
+				"employeeId": "emp000001",
+				"name": "Meca"
+			},
+			"customerId": {
+				"customerId": "cus000001",
+				"name": "Guest"
+			},
+			"productsOrder": {
+				"productId": 1,
+				"name": "Sabun",
+				"qty": 6,
+				"price": 2500,
+				"subTotal": 15000
+			},
+			"totalDiscount": 0,
+			"totalPayment": 50000,
+			"statusPayment": null,
+			"cash": 0,
+			"return": 0
+		},{
+			"orderId": 2,
+			"date": "21/11/2020",
+			"deviceCode": "abc123",
+			"servantId": {
+				"employeeId": "emp000002",
+				"name": "Adhia"
+			},
+			"customerId": {
+				"customerId": "cus000001",
+				"name": "Guest"
+			},
+			"productsOrder": {
+				"productId": 1,
+				"name": "Sabun",
+				"qty": 6,
+				"price": 2500,
+				"subTotal": 15000
+			},
+			"totalDiscount": 0,
+			"totalPayment": 99000,
+			"statusPayment": null,
+			"cash": 0,
+			"return": 0
+		},{
+			"orderId": 3,
+			"date": "21/11/2020",
+			"deviceCode": "abc123",
+			"servantId": {
+				"employeeId": "emp000003",
+				"name": "Naura"
+			},
+			"customerId": {
+				"customerId": "cus000002",
+				"name": "Eny Salon"
+			},
+			"productsOrder": {
+				"productId": 1,
+				"name": "Sabun",
+				"qty": 6,
+				"price": 2500,
+				"subTotal": 15000
+			},
+			"totalDiscount": 0,
+			"totalPayment": 199000,
+			"statusPayment": null,
+			"cash": 0,
+			"return": 0
+		}
+	]
 }
